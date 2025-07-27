@@ -4,8 +4,8 @@ from peft import PeftModel, PeftConfig
 import os
 
 # Define the path where your fine-tuned model (LoRA adapters) and tokenizer are saved
-#FINETUNED_MODEL_PATH = "./codet5_base_fine_tuned_docstrings_lora"
-FINETUNED_MODEL_PATH = "./FINETUNED_MODEL"
+FINETUNED_MODEL_PATH = "./codet5_base_fine_tuned_docstrings_lora"
+#FINETUNED_MODEL_PATH = "./FINETUNED_MODEL"
 
 # --- 1. Load PEFT Config and Base Model ---
 print(f"Loading PEFT config from: {FINETUNED_MODEL_PATH}")
